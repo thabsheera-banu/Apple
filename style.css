@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
+
+}
+nav{
+    position: fixed;
+    background-color: black;
+    color: lightgrey;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+  
+
+}
+ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+li{
+    list-style: none;
+    margin-left: 60px;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+main{
+    padding-top: 40px;
+}
+/* header svg{
+    width: 100%;
+    color:#d2d2d7
+} */
+#banner1 {
+    background-image: url("https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_preorder__c4g2wjzuugqe_small.jpg");
+    background-size: cover;
+    /* height: 90vh; */
+    /* background-position-y :-150px;  */
+    padding-top: 20px;
+    width: 600px;
+    height: 600px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+
+}
+.banner > *{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    line-height: 1.5rem;
+
+    
+
+}
+#banner1{
+    padding: 70px;
+    padding-left: 250px;
+   
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.banner a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; 
+    letter-spacing: 0.231px;
+    padding: 100px;
+    padding: 10px;
+}
+.imga{
+    margin-top: -10px;
+   
+}
+.imga1{
+    margin-top: -55px;
+  
+}
+#banner2{
+    /* background-image: url("3.jpg"); */
+    /* background-size: cover;
+   background-repeat: no-repeat;
+   width: 800px;
+   height: 550px; */
+   background-color: black;
+   /* margin-left: 250px; */
+   color: aliceblue;
+   padding: 70px;
+    
+    
+    /* z-index: 3; */
+
+}
+#banner2 img{
+   margin-left: 200px;
+
+}
+.img1{
+    /* margin-left: 400px; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#banner3{
+    background-image: url("4.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-size: cover; */
+    width: auto;
+    height: auto;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    
+    
+   
+}
+.category{
+    display: flex;
+   
+}
+.category .box{
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    line-height: 2.5rem;
+
+
+}
+#box1{
+    background-image: url("https://www.apple.com/v/home/au/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+    background-position: center;
+}
+#box2{
+    background-image: url("https://www.apple.com/v/home/au/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_large.jpg");
+    background-position: center;
+    color: aliceblue;
+}
+#box3{
+    background-image: url("https://www.apple.com/v/home/au/images/promos/apple-tv-4k/promo_tv4k__d33vaocbii82_large.jpg");
+    background-position: center;
+
+}
+#box4{
+    background-image: url("https://www.apple.com/in/home/promos/apple-watch-ultra/images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg");
+    background-position: center;
+
+}
+#box5{
+    background-image: url("https://www.apple.com/v/home/au/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_large.jpg");
+    background-position: center;
+    color: aliceblue;
+
+}
+#box6{
+    background-image: url("https://www.apple.com/v/home/au/images/promos/macbook-air/promo_macbookair__fywl7i82fueu_large.png");
+    background-position: center;
+
+}
+.category a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.category h1{
+    font-size: 50px;
+}
+.category h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+a:hover{
+    text-decoration: underline;
+}
+#banner4 img{
+/* background-image: url("https://is3-ssl.mzstatic.com/image/thumb/CUcDZ-At1_oNSxrwvuRguA/980x551.jpg");     */
+width: 100%;
+}
+footer{
+    background-color: #f5f5f7;
+    border-color: #d2d2d7;
+    width: 100%;
+    
+    
+    
+}
+footer .container{
+    padding: 10px 150px;
+    margin: auto;
+    /* padding-top: 0px; */
+    /* font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif; */
+}
+footer .container  {
+    font-size: 10pt;
+    color: gray;
+}
+footer ul{
+    display: grid;
+    margin-left: 40px;
+    
+}
+footer .shop{
+    font-size: 10pt;
+    color: gray;
+    
+}
+footer .li1{
+    color: black;
+}
+.shop{
+    display: flex;
+}
+#con{
+    justify-content: flex-start;
+}
+
+
